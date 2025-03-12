@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: empire/Dockerfile
+
+run:
+  web: npm start
