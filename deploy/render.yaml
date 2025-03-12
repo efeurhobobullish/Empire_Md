@@ -1,0 +1,10 @@
+services:
+  - name: empire-md
+    type: web
+    runtime: docker
+    docker:
+      build_context: .
+      dockerfile: empire/Dockerfile
+    ports:
+      - 8000
+    plan: free
