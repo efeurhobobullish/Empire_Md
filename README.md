@@ -1,12 +1,6 @@
 <h1 align="center">𝖤𝗆𝗉𝗂𝗋𝖾_𝖬𝖽</h1>
 
 <p align="center">
-  <img alt="𝖤𝗆𝗉𝗂𝗋𝖾_𝖬𝖽" src="">
-</p>
-
----
-
-<p align="center">
   <a href="https://t.me/empire_tech_update" target="_blank">
     <img alt="Join Telegram" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
