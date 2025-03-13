@@ -20,6 +20,8 @@ global.channelUrl = "https://whatsapp.com/channel/0029VajVvpQIyPtUbYt3Oz0k";
 global.botname = "Empire_Md";
 global.devs = "2348078582627"
 global.devsname = "𝖤𝗆𝗉𝗂𝗋𝖾 𝖳𝖾𝖼𝗁";
+global.api = "https://api.empiretech.biz.id/api";
+global.apikey = "CBfmvL";
 
 module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
