@@ -1,7 +1,7 @@
 <h1 align="center">𝖤𝗆𝗉𝗂𝗋𝖾_𝖬𝖽</h1>
 
 <p align="center">
-  <img alt="𝖤𝗆𝗉𝗂𝗋𝖾_𝖬𝖽" src="https://files.catbox.moe/z7c67w.jpg">
+  <img alt="𝖤𝗆𝗉𝗂𝗋𝖾_𝖬𝖽" src="">
 </p>
 
 ---
