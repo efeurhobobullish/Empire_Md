@@ -1,86 +1,91 @@
 {
   "name": "Empire_Md",
-  "description": "Empire_Md | An all-in-one WhatsApp Bot For Music 🎶, Smart Features 🤖. Fast, Reliable, and Awesome 🚀",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://files.catbox.moe/6ntq2i.jpg",
-  "keywords": [
-    "Empire_Md",
-    "Empire Tech",
-    "Bot",
-    "WhatsApp Bot"
-  ],
+  "keywords": ["nodejs", "Empire_Md", "whatsapp bot","Empire Tech","baileys"],
   "success_url": "/",
   "env": {
-    "ALWAYS_ONLINE": {
-      "description": "Use true or false to enable or disable always online.",
-      "required": true,
-      "value": "false"
-    },
-    "ANTICALL": {
-      "description": "Use true or false to enable or disable calls.",
-      "required": true,
-      "value": "false"
-    },
-    "ANTILINK": {
-      "description": "Enable or disable the anti-link feature in groups.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_LIKE_EMOJI": {
-      "description": "Set custom emoji for auto-like status.",
-      "required": true,
-      "value": "💜"
-    },
-    "AUTO_LIKE_STATUS": {
-      "description": "Enable auto-like status with true or false.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_RECORDING": {
-      "description": "Enable or disable the auto-recording feature.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_TYPING": {
-      "description": "Enable or disable the auto-typing feature.",
-      "required": true,
-      "value": "false"
-    },
-    "AUTO_VIEW_STATUS": {
-      "description": "Enable auto-read status with true or false.",
-      "required": true,
-      "value": "false"
-    }, 
-    "MODE": {
-      "description": "Use public or private.",
-      "required": true,
-      "value": "private"
-    },
-    "MONGODB_URL": {
-      "description": "MongoDB connection URL.",
-      "required": true,
-      "value": "ur mondodb url"
-    },
-    "OWNER_NAME": {
-      "description": "Owner name.",
-      "required": true,
-      "value": "Empire Tech"
-    },
-    "OWNER_NUMBER": {
-      "description": "Put your own number below.",
-      "required": true,
-      "value": "ur number"
-    },
-    "PREFIX": {
-      "description": "Set your prefix. You can use `all | . | .!*`.",
-      "required": true,
-      "value": "."
-    },
-    "SESSION_ID": {
-      "description": "Put session ID below.",
-      "required": true,
-      "value": "ur session id here"
-    }
+  "ALWAYS_ONLINE": {
+    "description": "Use true or false to enable or disable always online.",
+    "required": true,
+    "value": "false"
   },
+  "ANTICALL": {
+    "description": "Use true or false to enable or disable calls.",
+    "required": true,
+    "value": "false"
+  },
+  "ANTILINK": {
+    "description": "Enable or disable the anti-link feature in groups.",
+    "required": true,
+    "value": "false"
+  },
+  "AUTO_LIKE_EMOJI": {
+    "description": "Set custom emoji for auto-like status.",
+    "required": true,
+    "value": "💜"
+  },
+  "AUTO_LIKE_STATUS": {
+    "description": "Enable auto-like status with true or false.",
+    "required": true,
+    "value": "false"
+  },
+  "AUTO_RECORDING": {
+    "description": "Enable or disable the auto-recording feature.",
+    "required": true,
+    "value": "false"
+  },
+  "AUTO_TYPING": {
+    "description": "Enable or disable the auto-typing feature.",
+    "required": true,
+    "value": "false"
+  },
+  "AUTO_VIEW_STATUS": {
+    "description": "Enable auto-read status with true or false.",
+    "required": true,
+    "value": "false"
+  },
+  "MODE": {
+    "description": "Use public or private.",
+    "required": true,
+    "value": "private"
+  },
+  "MONGODB_URL": {
+    "description": "MongoDB connection URL.",
+    "required": false,
+    "value": ""
+  },
+  "OWNER_NAME": {
+    "description": "Owner name.",
+    "required": true,
+    "value": "Empire Tech"
+  },
+  "OWNER_NUMBER": {
+    "description": "Put your own number below.",
+    "required": true,
+    "value": ""
+  },
+  "PREFIX": {
+    "description": "Set your prefix. You can use `all | . | .!*`.",
+    "required": true,
+    "value": "."
+  },
+  "SESSION_ID": {
+    "description": "Put session ID below.",
+    "required": true,
+    "value": "ur session id here"
+  },
+  "SUDO": {
+    "description": "PUT OWNER NUMBER NOTE:remove the + and must be in international form eg:2347039570336",
+    "required": false,
+    "value": "true"
+   },
+   "TIME_ZONE": {
+    "description": "Put ur time zone eg Africa/Lagos.",
+    "required": true,
+    "value": "Africa/Lagos"
+   }
+ },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
