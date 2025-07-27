@@ -38,7 +38,7 @@ Meet **Empire_Md**, your all-in-one feature-packed WhatsApp bot! Enjoy a thrilli
 
 ## Deployment Methods
 
-1. Get [`SESSION ID`](https://session.empiretech.biz.id/) by Pair Code or QR code (`WhatsApp > Three Dots > Linked Devices`).
+1. Get [`SESSION ID`](https://session.empiretech.net.ng/) by Pair Code or QR code (`WhatsApp > Three Dots > Linked Devices`).
 2. Obtain a MongoDB URL from [`MONGODB`](https://www.mongodb.com) or follow this [`TUTORIAL`](https://youtu.be/4YEUtGlqkl4).
 3. **Star ⭐ the repository** and click [`FORK`](https://github.com/efeurhobobullish/Empire_Md/fork).
 4. Deploy on all platforms via [`DEPLOY`](https://empire-md-deploy.empiretech.biz.id).
